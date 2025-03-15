@@ -14,26 +14,51 @@
         header {
             background: #005a9c;
             color: white;
-            padding: 15px;
+            padding: 20px;
             text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #003366;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background: #005a9c;
+            border-radius: 5px;
+        }
+        .hero {
+            background: url('assistive-tech.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            font-size: 28px;
+            font-weight: bold;
         }
         .container {
-            width: 90%;
+            width: 80%;
             margin: 20px auto;
             padding: 20px;
             background: white;
-            border-radius: 5px;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        nav {
+        .footer {
             text-align: center;
-            margin-bottom: 20px;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #005a9c;
-            font-weight: bold;
+            padding: 15px;
+            background: #003366;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
@@ -49,27 +74,36 @@
         <a href="community.html">Community Support</a>
     </nav>
     
+    <div class="hero">
+        Empowering individuals with assistive technology for a more accessible future.
+    </div>
+    
+    <div class="container">
+        <h2>Welcome to Assistive Technology Resources</h2>
+        <p>This platform is designed to provide educators, parents, and individuals with disabilities access to information about assistive tools, strategies, and community support.</p>
+    </div>
+    
     <div class="container" id="tools">
         <h2><a href="tools.html">Assistive Tools & Devices</a></h2>
-        <p>Assistive technology tools help individuals with disabilities access education and daily tasks more effectively. Click the link above to learn more.</p>
+        <p>Explore various assistive tools that help individuals with disabilities access education and daily tasks. Click the link above to learn more.</p>
     </div>
     
     <div class="container" id="instruction">
         <h2><a href="instruction.html">Instructional Strategies</a></h2>
-        <p>Effective use of assistive technology in education requires strategic implementation. Click the link above to explore various teaching strategies.</p>
+        <p>Learn best practices for integrating assistive technology into education. Click the link above for more details.</p>
     </div>
     
     <div class="container" id="funding">
         <h2><a href="funding.html">Funding Resources</a></h2>
-        <p>Assistive technology can be expensive, but various funding sources exist. Click the link above for details on grants, programs, and other funding options.</p>
+        <p>Discover grants, programs, and financial aid options for assistive technology. Click the link above for more information.</p>
     </div>
     
     <div class="container" id="community">
         <h2><a href="community.html">Community Support</a></h2>
-        <p>Having a strong support network is essential for those using assistive technology. Click the link above to find communities and resources for support.</p>
+        <p>Connect with online groups, local organizations, and training resources for assistive technology support. Click the link above to get involved.</p>
     </div>
     
-    <footer>
+    <footer class="footer">
         <p>&copy; 2025 Charles Lung | All Rights Reserved</p>
     </footer>
 </body>
